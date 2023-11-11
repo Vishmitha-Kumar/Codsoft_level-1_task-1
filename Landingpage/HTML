@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Landing page</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__logo">
+
+            <a href="#"><img src="mr.logo.jpg" alt="logo" /></a>
+        </div>
+        <ul class="nav__links">
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Menu</a></li>
+            <li class="link"><a href="#">Products</a></li>
+            <li class="link"><a href="#">Review</a></li>
+        </ul>
+        <button class="btn">Login</button>
+    </nav>
+
+
+    <header class="section__container header__container">
+        <div class="header__content">
+            <span class="bg__blur"></span>
+            <span class="bg__blur header__blur"></span>
+            <h4>BEST COFFEE IN THE TOWN</h4>
+            <h1><span>FRESH</span>COFFEE IN THE MORNING</h1>
+            <p>Drinking coffee can do much more than provide an
+                 energy boost.It may also reduce the risk of several 
+                 health issues.Experience the rich and bold flavors of our
+                  exquisite coffee blends.</p>
+             <button class="btn">Read More</button>
+        </div>
+        <div class="header__image">
+            <img src="Coffee 1.jpg" alt="header" />
+        </div>
+    </header>
+    <section class="section__container class__container">
+        <div clss="class__image">
+          <span class="bg__blur"></span>
+          <img src="coffee_7-removebg-preview.png" alt="class" class="class__img-1">
+        </div>
+        <div class="class__content">
+            <h2 class="section_header">DIVINE AROMA IN EVERY SINGLE CUP</h2>
+            <p>
+              It is best to start your day with a cup of 
+              coffee.Discover the best flavours coffee you 
+              will ever have.We provide the best for our customers.
+            </p>
+            <button class="btn">TASTE</button>
+          </div>
+        </section>
+        <div class="second">
+        <center><h2>EMBARK</h2></center>
+        <div class="body">
+          <div class="ui-card">
+            <img src="C:\Users\vishm\OneDrive\Desktop\CODSOFT\Landing Page\Cappuccino.jpg">
+            <div class="description">
+          <h3>Cappuccino</h3>
+          <p>"A harmonious blend of robust espresso and silky,
+            frothy delight, elevating every sip to a flavorful experience."</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="ui-card">
+          <img src="Macchiato.jpeg">
+          <div class="description">
+            <h3>Macchiato</h3>
+            <p>"An espresso kissed with a dollop of creamy foam, offering a bold yet balanced 
+              flavor in every sip, defining sophistication in simplicity."
+            </p>
+            <a href="#">Read More</a>
+          </div>
+    </div>
+    <div class="ui-card">
+      <img src="Caramel-Macchiato - Copy.jpg">
+      <div class="description">
+        <h3>Caramel Macchiato</h3>
+        <p>"Savor the perfect balance of sweet caramel, bold espresso, and creamy milk, 
+          elevating your coffee experience to a delightful, indulgent level."
+        </p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </div>
+  <section class="review">
+    <div class="section__container review__container">
+      <span><i class="ri-double-quotes-r"></i></span>
+      <div class="review__content">
+        <h4>CUSTOMER REVIEW</h4>
+        <div class="review__footer">
+          <div class="review__member">
+            <img src="C:\Users\vishm\OneDrive\Desktop\CODSOFT\Landing Page\Coffee 6.jpg" alt="member">
+            <div class="review__member__details">
+              <h4>Aneey Cooper</h4>
+              <p>Software developer</p>
+              
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+
+            </div>
+          </div>
+        <p>
+         "I really like the atmosphere, good coffee, and
+           nice interior. This is a good place to study or 
+           chill with friends. The drinks and foods were 
+           all tasty and worthwhile. If you’re up for a fresh
+            place with beautiful architecture then this is a must to visit."
+        </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="section__container footer__container">
+    <span class="bg__blur"></span>
+    <span class="bg__blur footer__blur"></span>
+    <div class="footer__col">
+      <div class="footer__logo"><img src="mr.logo.jpg" alt="logo"></div>
+      <p>
+        With one cup of coffee at a time,Create moments of joy,connection,and inspiration,
+        by starting your day with a cup of coffee.Discover the best flavors
+        coffee you will ever have here.
+      </p>
+      <div class="footer__socials">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+      </div>
+    </div>
+    <div class="footer__col">
+      <h4>Company</h4>
+      <a href="#">Business</a>
+      <a href="#">Franchise</a>
+      <a href="#">Partnetship</a>
+      <a href="#">Network</a>
+    </div>
+    <div class="footer__col">
+      <h4>About Us</h4>
+      <a href="#">Blogs</a>
+      <a href="#">Security</a>
+      <a href="#">Careers</a>
+    </div>
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <a href="#">Contact Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+    </div>
+  </footer>
+  <div class="footer__bar">
+    Copyright @ 2023 Web Design Mastery.All rights reserved.
+  </div>
+  </body>
+  </html>
